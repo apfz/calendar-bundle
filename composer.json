@@ -1,26 +1,27 @@
 {
-    "name": "isha/calendar-bundle",
-    "type": "symfony-bundle",
-    "description": "This bundle allows you to integrate the jQuery FullCalendar plugin into your Symfony2 application.",
-    "keywords": ["calendar", "fullcalendar", "jquery calendar"],
-    "homepage": "https://github.com/apfz/calendar-bundle",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Ferdi Zoet",
-            "email": "ferdi.zoet@ishafoundation.org",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "symfony/symfony": "~2.1",
-        "friendsofsymfony/jsrouting-bundle": "~1.1",
-        "doctrine/collections": ">=1.0"
-    },
-    "autoload": {
-        "psr-0": {
-            "Isha\\CalendarBundle": ""
-        }
-    },
-    "target-dir": "Isha/CalendarBundle"
+	"name": "isha/calendar-bundle",
+	"type": "symfony-bundle",
+	"description": "A bundle to quickly build responsive interfaces",
+	"keywords": ["Calendar", "Symfony Bundle", "Isha"],
+	"homepage": "https://github.com/apfz/calendar-bundle",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "IYC IT Department",
+			"email": "ferdi.zoet@ishafoundation.org"
+		}
+	],
+	"require": {
+		"php": ">=5.3.2"
+	},
+	"autoload": {
+		"psr-0": { "Isha\\CalendarBundle": "" }
+	},
+	"target-dir": "Isha/CalendarBundle",
+    "minimum-stability": "dev",
+	"extra": {
+	  "branch-alias": {
+		"dev-master": "0.1-dev"
+	  }
+	}
 }
